@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.GameActivity">
+
+    <com.example.daria.myapplication.view.TableView
+        android:id="@+id/table_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeState"
+        android:layout_gravity="center"
+        android:layout_weight="6"
+        android:paddingTop="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="reset"
+        android:text="@string/reset_button"/>
+
+
+</LinearLayout>

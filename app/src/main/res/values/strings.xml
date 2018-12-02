@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Arctic Sim</string>
+    <string name="reset_button">RESET</string>
+    <string name="settings_button">Настройки</string>
+
+    <string-array name="possible_table_sizes">
+        <item>15x10</item>
+        <item>12x8</item>
+        <item>10x6</item>
+        <item>7x5</item>
+        <item>5x3</item>
+    </string-array>
+
+</resources>
